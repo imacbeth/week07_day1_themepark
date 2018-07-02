@@ -1,4 +1,6 @@
 package ThemePark.Stalls;
 
-public class IceCreamStall {
+import ThemePark.IReviewed;
+
+public class IceCreamStall extends Stall implements IReviewed {
 }

@@ -1,4 +1,8 @@
 package ThemePark.Stalls;
 
-public class CandyFlossStall {
+import ThemePark.IReviewed;
+
+public class CandyFlossStall extends Stall implements IReviewed {
+
+
 }
