@@ -1,5 +1,7 @@
 package ThemePark.Attractions;
 
+import ThemePark.Visitor;
+
 public abstract class Attraction {
 
     private String name;
@@ -17,5 +19,7 @@ public abstract class Attraction {
     public int getRating(){
         return this.rating;
     }
+
+
 
 }

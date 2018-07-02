@@ -1,4 +1,3 @@
-import ThemePark.Stalls.CandyFlossStall;
 import ThemePark.Stalls.IceCreamStall;
 import ThemePark.Visitor;
 import org.junit.Before;
@@ -46,4 +45,6 @@ public class IceCreamStallTest {
         visitor = new Visitor(18, 205, 50);
         assertEquals(2.80, iceCreamStall.priceFor(visitor), 0.01);
     }
+
+
 }
