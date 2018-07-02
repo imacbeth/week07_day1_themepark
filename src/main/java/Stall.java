@@ -9,9 +9,14 @@ public abstract class Stall {
         this.name = name;
         this.ownerName = ownerName;
         this.parkingSpot = parkingSpot;
+        this.rating = rating;
     }
 
     public String getName(){
         return this.name;
+    }
+
+    public int getRating(){
+        return this.rating;
     }
 }
