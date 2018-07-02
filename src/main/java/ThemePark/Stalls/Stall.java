@@ -1,10 +1,16 @@
-public abstract class Attraction {
+package ThemePark.Stalls;
+
+public abstract class Stall {
 
     private String name;
+    private String ownerName;
+    private int parkingSpot;
     private int rating;
 
-    public Attraction(){
+    public Stall(){
         this.name = name;
+        this.ownerName = ownerName;
+        this.parkingSpot = parkingSpot;
         this.rating = rating;
     }
 
@@ -15,5 +21,4 @@ public abstract class Attraction {
     public int getRating(){
         return this.rating;
     }
-
 }
